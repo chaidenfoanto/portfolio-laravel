@@ -45,7 +45,7 @@
 		<div class="introduction">
 			<h1 class="introduction__content">
 				<span class="introduction__content-el introduction__content-el--name">Chaiden Foanto</span>
-				<span class="introduction__content-el introduction__content-el--description">Creative</span>
+				<span class="introduction__content-el introduction__content-el--description" style="color: #5D6CF0FF">Portfolio</span>
 				<span class="introduction__content-el introduction__content-el--job">Professional</span>
 			</h1>
 			<svg class="introduction__arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0" y="0" viewBox="0 0 130 65" xml:space="preserve" enable-background="new 0 0 130 65"><g transform="translate(0.000000,65.000000) scale(0.100000,-0.100000)"><path d="M22.2 634c-50-35-40-47 293-349 174-157 323-285 333-285 24 0 635 552 647 585 8 23 6 30-14 46 -13 10-31 19-40 19s-57-37-107-83c-50-45-179-162-287-260l-197-179 -147 134c-319 289-433 388-446 388C50.2 650 34.2 643 22.2 634z"/></g></svg>
@@ -73,7 +73,7 @@
 				<div class="app-design__content blurb">
 					<h2 class="blurb__heading">UC Hub <br>Design</h2>
 					<p class="blurb__copy blurb__copy--tight">App design for UC Hub, an awesome library application for Ciputra University.</p>
-					<a class="transform-link" href="#0">Check it out</a>
+					<a class="transform-link" href="https://www.figma.com/design/x8avJPWrgpU5cIGZAqHD9q/UC-Hub?node-id=0-1&t=DdqwIwrvoOaeNHa3-1">Check it out</a>
 				</div>
 			</div>
 			<figure class="app-design__visual"></figure>
@@ -85,7 +85,7 @@
 				<div class="web-design__content blurb">
 					<h2 class="blurb__heading">First Web <br>Design</h2>
 					<p class="blurb__copy blurb__copy--tight">Web I made for my first portfolio, it is a memorable website for me.</p>
-					<a class="transform-link" href="#0">Check it out</a>
+					<a class="transform-link" href="https://chaidenfoanto.github.io/First-Resume/">Check it out</a>
 				</div>
 			</div>
 			<figure class="web-design__visual"></figure>
@@ -99,37 +99,37 @@
 					<li class="work__list-el work__list-el--is-active">
 						<div class="work__content">
 							<div class="work__content-blurb blurb blurb--framed">
-								<h3 class="blurb__heading">Strategik INC<br>Web Design</h3>
-								<p class="blurb__copy">The awesome guys at Strategik INC were superb to work with because they knew their goals exactly.</p>
+								<h3 class="blurb__heading">CF COMPANY<br>Web Design</h3>
+								<p class="blurb__copy">The awesome atmosphere at CF Holding Company were superb to work with because they knew their goals exactly.</p>
 							</div>
 							<a class="transform-link" href="#0">See full project</a>
 						</div>
 						<div class="work__visual">
-							<img src="{{ asset('img/work-strategik.jpg') }}" alt="Strategik INC">
+							<img src="{{ asset('img/CF-Company.png') }}" alt="CF Holding Company">
 						</div>
 					</li>
 					<li class="work__list-el">
 						<div class="work__content">
 							<div class="work__content-blurb blurb blurb--framed">
-								<h3 class="blurb__heading">Ēostre UI Kit<br>Web Design</h3>
-								<p class="blurb__copy">Ēostre UI Kit is made following the latest design trends with focus on usability and fast workflow.</p>
+								<h3 class="blurb__heading">NPLC<br>UI Design</h3>
+								<p class="blurb__copy">NPLC website is created to showcase the National Programming and Logic Competition organized by Ciputra University, focusing on innovation, competitive programming, and logical problem-solving skills.</p>
 							</div>
 							<a class="transform-link" href="#0">See full project</a>
 						</div>
 						<div class="work__visual">
-							<img src="{{ asset('img/work-eostre.jpg') }}" alt="Ēostre UI Kit">
+							<img src="{{ asset('img/NPLC.png') }}" alt="NPLC Mockup UI">
 						</div>
 					</li>
 					<li class="work__list-el">
 						<div class="work__content">
 							<div class="work__content-blurb blurb blurb--framed">
-								<h3 class="blurb__heading">Go Outside<br>App Design</h3>
-								<p class="blurb__copy">Quick concept for a fictitious wildlife exploration app. Grab the PSD and start your own exploration.</p>
+								<h3 class="blurb__heading">CF University<br>Web Design</h3>
+								<p class="blurb__copy">CF University Form allows you to apply as a student through this easy-to-use registration form.</p>
 							</div>
-							<a class="transform-link" href="#0">See full project</a>
+							<a class="transform-link" href="https://chaidenfoanto.github.io/Chaiden---0806022310023---Form-Registration/">See full project</a>
 						</div>
 						<div class="work__visual">
-							<img src="{{ asset('img/work-go-outside.jpg') }}" alt="Go Outside App">
+							<img src="{{ asset('img/CF-Univ.png') }}" alt="CF University Form Web Design">
 						</div>
 					</li>
 				</ul>
