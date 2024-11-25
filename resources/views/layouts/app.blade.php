@@ -9,7 +9,7 @@
     <meta name="author" content="Bucky Maler">
     <title>@yield('title', 'Chaiden Foanto Portfolio')</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="{{ secure_asset('css/main.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
 </head>
 <body>
 
@@ -20,7 +20,7 @@
 
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="{{ secure_asset('js/vendor/jquery-2.2.4.min.js')}}"><\/script>')</script>
-    <script src="{{ secure_asset('js/functions-min.js')}}"></script>
+    <script>window.jQuery || document.write('<script src="{{ asset('js/vendor/jquery-2.2.4.min.js')}}"><\/script>')</script>
+    <script src="{{ asset('js/functions-min.js')}}"></script>
 </body>
 </html>
