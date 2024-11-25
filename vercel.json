@@ -4,10 +4,24 @@
     "functions": {
         "api/index.php": { "runtime": "vercel-php@0.5.1" }
     },
-    "routes": [{
+    "routes": [
+        {
         "src": "/(.*)",
         "dest": "/api/index.php"
-    }],
+        },
+        {
+        "src": "/css/(.*)",
+        "dest": "/public/css"
+        },
+        {
+        "src": "/js/(.*)",
+        "dest": "/public/js"
+        },
+        {
+        "src": "/img/(.*)",
+        "dest": "/public/img"
+        }
+    ],
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
@@ -23,5 +37,6 @@
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
-    }
+    },
+    "outputDirectory": "public"
 }
