@@ -21,7 +21,7 @@
         "src": "/img/(.*)",
         "dest": "/public/img"
         },
-        { "source": "/(.*)", "destination": "/public/$1" }
+        { "src": "/(.*)", "dest": "/public/$1" }
     ],
     "env": {
         "APP_ENV": "production",
