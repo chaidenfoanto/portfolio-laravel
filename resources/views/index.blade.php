@@ -62,7 +62,7 @@
                     </div>
                     <p class="about__content-signature">Chaiden Foanto</p>
                 </div>
-                <img class="about__visual" style="height: 570px;width:auto" src="{{ asset('img/about-visual.png') }}" alt="Chaiden Foanto">
+                <img class="about__visual" style="height: 570px;width:auto" src="{{ secure_asset('img/about-visual.png') }}" alt="Chaiden Foanto">
             </div>
         </section>
         <!-- END SECTION: About -->
@@ -107,7 +107,7 @@
                             <a class="transform-link" href="#0">See full project</a>
                         </div>
                         <div class="work__visual">
-                            <img src="{{ asset('img/CF-Company.png') }}" alt="CF Holding Company">
+                            <img src="{{ secure_asset('img/CF-Company.png') }}" alt="CF Holding Company">
                         </div>
                     </li>
                     <li class="work__list-el">
@@ -119,7 +119,7 @@
                             <a class="transform-link" href="#0">See full project</a>
                         </div>
                         <div class="work__visual">
-                            <img src="{{ asset('img/NPLC.png') }}" alt="NPLC Mockup UI">
+                            <img src="{{ secure_asset('img/NPLC.png') }}" alt="NPLC Mockup UI">
                         </div>
                     </li>
                     <li class="work__list-el">
@@ -131,7 +131,7 @@
                             <a class="transform-link" href="https://chaidenfoanto.github.io/Chaiden---0806022310023---Form-Registration/">See full project</a>
                         </div>
                         <div class="work__visual">
-                            <img src="{{ asset('img/CF-Univ.png') }}" alt="CF University Form Web Design">
+                            <img src="{{ secure_asset('img/CF-Univ.png') }}" alt="CF University Form Web Design">
                         </div>
                     </li>
                 </ul>
@@ -149,7 +149,7 @@
             <h2 class="contact__heading title">Contact Me</h2>
             <div class="contact__wrapper wrapper--large">
                 <div class="contact__visual">
-                    <img src="{{ asset('img/contact-visual.png') }}" alt="Chaiden Foanto's location">
+                    <img src="{{ secure_asset('img/contact-visual.png') }}" alt="Chaiden Foanto's location">
                 </div>
                 <form class="contact__form">
                     <input class="contact__form-el contact__form-el--name" type="text" placeholder="Your Name" spellcheck="false">
